@@ -1,0 +1,52 @@
+/* Animation for decor */
+@keyframes dec-first-anim {
+  0% {
+    transform: scale(0.3) rotate(0deg);
+  }
+  100% {
+    transform: scale(100%) rotate(-1.564deg);
+  }
+}
+
+@keyframes dec-second-anim {
+  0% {
+    transform: scale(0.3) rotate(0deg);
+  }
+  100% {
+    transform: scale(100%) rotate(5.544deg);
+  }
+}
+
+@keyframes dec-third-anim {
+  0% {
+    transform: scale(0.3) rotate(0deg);
+  }
+  100% {
+    transform: scale(100%) rotate(-6.701deg);
+  }
+}
+
+/* Popup Animation */
+@keyframes closing-popup {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes opening-popup {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
